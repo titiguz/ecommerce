@@ -9,47 +9,47 @@
 		<title>Primera entrega Backend</title>
 	</head>
 	<body>
-		<div class="container m-4">
+		<div class="container">
 			<h2 class="text-center">Bienvenidos a COMODYET :)</h2><br>
 
 			<div class="row">
-				<div class="col-8">
+				<div>
 					<h5>Actualizar información:</h5>
 				</div>
-				<div class="col-4">
+				<div>
 					<a href="index.html" class="btn btn-dark float-end"><i class="bi bi-house"></i> Ir al inicio</a>
 				</div>
 			</div>
 
-			<form class="row g-3" id="editProductForm">
-				<div class="col-12">
+			<form class="row" id="editProductForm">
+				<div>
 					<label for="nombre" class="form-label">Nombre</label>
 					<input type="text" class="form-control" name="nombre" id="nombre" required>
 				</div>
-				<div class="col-12">
+				<div>
 					<label for="descripcion" class="form-label">Descripción</label>
 					<input type="text" class="form-control" name="descripcion" id="descripcion" required>
 				</div>
-				<div class="col-12">
+				<div>
 					<label for="foto" class="form-label">Link de foto</label>
 					<input type="url" class="form-control" name="foto" id="foto" placeholder="http://example.com" required>
 				</div>
-				<div class="col-md-4">
+				<div>
 					<label for="codigo" class="form-label">Código</label>
 					<input type="text" class="form-control" name="codigo" id="codigo" required>
 				</div>
-				<div class="col-md-4">
+				<div>
 					<label for="precio" class="form-label">Precio</label>
 					<div class="input-group has-validation">
 						<span class="input-group-text" id="inputGroupPrepend">$</span>
 						<input type="text" class="form-control" name="precio" id="precio" aria-describedby="inputGroupPrepend" required>
 					</div>		
 				</div>
-				<div class="col-md-4">
+				<div>
 					<label for="stock" class="form-label">Stock</label>
 					<input type="number" class="form-control" name="stock" id="stock" required>
 				</div>
-				<div class="col-12">
+				<div>
 					<button type="submit" class="btn btn-dark">¡Genial!</button>
 				</div>
 			</form>
