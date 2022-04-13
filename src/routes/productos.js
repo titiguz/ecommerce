@@ -39,7 +39,7 @@ router.put('/:id', validateAccess, async(req, res) => {
 	let timestamp = Date.now();
 	let resUpdate = await productsService.update({id, timestamp, nombre, descripcion, codigo, foto, precio, stock});
 	if(!resUpdate) return res.send({message: "El producto no existe"});
-	res.send({message: "Producto actualizado con éxito"});
+	res.send({message: "Producto editado con éxito"});
 });
 
 router.delete('/:id', validateAccess, async(req, res) => {

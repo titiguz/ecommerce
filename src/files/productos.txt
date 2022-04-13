@@ -1,9 +1,9 @@
 [
 	{
 		"id": 1,
-		"timestamp": 1649880165003,
-		"nombre": "Pantalón Luna ",
-		"descripcion": "Para tus días de libertad, este pantalón es ideal :)",
+		"timestamp": 1649881225804,
+		"nombre": "Pantalón Luna  ",
+		"descripcion": "Para tus días de libertad, este pantalón es ideal :D",
 		"codigo": "777",
 		"foto": "https://images.unsplash.com/photo-1649864220147-cdfbe3b6904f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
 		"precio": "2485",
@@ -31,12 +31,12 @@
 	},
 	{
 		"id": 4,
-		"timestamp": 1649877286613,
+		"timestamp": 1649881314371,
 		"nombre": "Pollera Miracles",
 		"descripcion": "¿Y si salimos a pasear?",
 		"codigo": "85",
 		"foto": "https://images.unsplash.com/photo-1603205319065-6ffbe8f0e5af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-		"precio": "4785",
+		"precio": "4784",
 		"stock": "3"
 	}
 ]
