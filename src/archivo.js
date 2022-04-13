@@ -39,7 +39,7 @@ export default class Archivo {
 			contenido = contenido.filter(obj => obj.id !== parseInt(itemId));
 			await fs.promises.writeFile(this.rutaArchivo, JSON.stringify(contenido, null, '\t'));
 		}catch(error){
-			console.log(`No se puede borrar el ítem: ${error}`);
+			console.log(`No se puede borrar: ${error}`);
 		}
 	}
 
@@ -51,7 +51,7 @@ export default class Archivo {
 			contenido[foundIndex] = item;
 			await fs.promises.writeFile(this.rutaArchivo, JSON.stringify(contenido, null, '\t'));
 		}catch(error){
-			console.log(`No se puede actualizar el ítem: ${error}`);
+			console.log(`No se puede actualizar: ${error}`);
 		}
 	}
 }

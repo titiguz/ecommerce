@@ -11,8 +11,8 @@ fetch('/api/productos')
 			if(isAdmin){
 				divButton = `
 					<div class="card-footer bg-transparent border">
-						<a href="updateProduct.html?id=${producto.id}" class="btn btn-sm btn-dark" name="editButton" data-id="${producto.id}">Actualizar</a>
-						<a href="#" class="btn btn-sm btn-dark" onclick="deleteAction(this)" name="deleteButton" data-id="${producto.id}" data-name="${producto.nombre}">Eliminar</a>
+						<a href="updateProduct.html?id=${producto.id}" class="btn btn-dark" name="editButton" data-id="${producto.id}">Actualizar</a>
+						<a href="#" class="btn btn-dark" onclick="deleteAction(this)" name="deleteButton" data-id="${producto.id}" data-name="${producto.nombre}">Eliminar</a>
 						<a href="#" class="btn btn-dark" onclick="addToCartAction(this)" name="addToCartButton" data-id="${producto.id}" data-name="${producto.nombre}"> Agregar al carrito</a>
 					</div>
 				`;

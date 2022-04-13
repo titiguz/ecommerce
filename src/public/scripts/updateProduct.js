@@ -1,6 +1,5 @@
 let form = document.getElementById('editProductForm');
 
-// Id del producto a editar
 let url = new URL(window.location.href);
 let productId = url.searchParams.get("id");
 
