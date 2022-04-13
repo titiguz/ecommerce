@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"timestamp": 1649875371278,
+		"nombre": "Pantalón Luna ",
+		"descripcion": "Para tus días de libertad, este pantalón es ideal :)",
+		"codigo": "777",
+		"foto": "https://images.unsplash.com/photo-1649864220147-cdfbe3b6904f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
+		"precio": "2485",
+		"stock": "3"
+	},
+	{
+		"id": 2,
+		"timestamp": 1649873883047,
+		"nombre": "Remera Zahara",
+		"descripcion": "Con esta remera ¡serás imparable!",
+		"codigo": "333",
+		"foto": "https://images.unsplash.com/photo-1548382131-e0ebb1f0cdea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+		"precio": "4874",
+		"stock": "2"
+	},
+	{
+		"id": 3,
+		"timestamp": 1649874039397,
+		"nombre": "Camisa Dellav",
+		"descripcion": "Te hará ver única...",
+		"codigo": "45",
+		"foto": "https://images.unsplash.com/photo-1515023115689-589c33041d3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+		"precio": "4577",
+		"stock": "5"
+	},
+	{
+		"id": 4,
+		"timestamp": 1649877286613,
+		"nombre": "Pollera Miracles",
+		"descripcion": "¿Y si salimos a pasear?",
+		"codigo": "85",
+		"foto": "https://images.unsplash.com/photo-1603205319065-6ffbe8f0e5af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+		"precio": "4785",
+		"stock": "3"
+	}
+]
