@@ -1,4 +1,4 @@
-let divDetalleCarrito = document.getElementById('detalleCarrito');
+let divDetalleCarrito = document.getElementById('detalleCarrito')
 let cartId = DEFAUL_CART_ID;
 
 fetch(`/api/carrito/${cartId}/productos`)
