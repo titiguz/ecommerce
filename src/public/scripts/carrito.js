@@ -17,10 +17,10 @@ fetch(`/api/carrito/${cartId}/productos`)
 							Código: ${producto.codigo}<br>
 							Stock: ${producto.stock}
 						</p>
-						<p class="card-text"><small class="text-muted"><i class="bi bi-currency-dollar"></i> ${producto.precio}</small></p>
+						<p class="card-text"><small class="text-muted">${producto.precio}</small></p>
 					</div>
 					<div class="card-footer bg-transparent border">
-						<a href="#" class="btn btn-dark" onclick="deleteProductFromCartAction(this)" name="deleteProductButton" data-id="${producto.id}" data-name="${producto.nombre}"><i class="bi bi-cart4"></i> Eliminar del carrito</a>
+						<a href="#" class="btn btn-dark" onclick="deleteProductFromCartAction(this)" name="deleteProductButton" data-id="${producto.id}" data-name="${producto.nombre}">Eliminar del carrito</a>
 					</div>
 				</div>
 			`;
